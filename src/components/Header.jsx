@@ -6,7 +6,7 @@ import { MdOutlineShoppingCart, MdOutlineWbSunny } from "react-icons/md";
 const Header = () => {
   return (
     <div className=" ml-10">
-      <nav className=" container flex justify-between px-20 space-x-10 py-4">
+      <nav className=" container flex justify-between px-20 space-x-10 py-4 relative z-30">
         <a href="#" className=" flex gap-2 items-center">
           <IoBookSharp className=" w-8 h-8 text-white"/>
           <span className=" font-extrabold uppercase text-white "> Book Rental</span>
