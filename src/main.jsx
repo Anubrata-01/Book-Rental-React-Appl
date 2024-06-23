@@ -28,7 +28,7 @@ const router = createBrowserRouter([
         element:<Trending/>,
       },
       {
-        path:"/newrelease",
+        path:"/newrelease-books",
         element:<Header/>,
       }
     ]
